@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="list_random_msg">
+        <item>@string/msg_hasegawa</item>
+        <item>@string/msg_fara</item>
+        <item>@string/msg_no_one</item>
+        <item>@string/msg_volt</item>
+    </array>
+
+</resources>

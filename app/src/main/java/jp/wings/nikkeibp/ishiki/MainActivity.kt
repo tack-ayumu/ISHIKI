@@ -1,11 +1,11 @@
 package jp.wings.nikkeibp.ishiki
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.widget.Button
 import android.widget.TextView
-import kotlinx.android.synthetic.main.activity_main.*
+import androidx.appcompat.app.AppCompatActivity
+
 
 class MainActivity : AppCompatActivity() {
     val handler = Handler()
@@ -21,7 +21,10 @@ class MainActivity : AppCompatActivity() {
         val resetButton = findViewById<Button>(R.id.reset)
         val timeText = findViewById<TextView>(R.id.timeText)
         val textView = findViewById<TextView>(R.id.textView)
-        val textView2 = findViewById<TextView>(R.id.textView)
+        val textView2 = findViewById<TextView>(R.id.textView2)
+        var msg = getString(R.string.msg_hasegawa)
+        val typedArray =
+            resources.getStringArray(R.array.list_random_msg)
 
         val runnable = object : Runnable{
             override fun run() {
@@ -42,28 +45,30 @@ class MainActivity : AppCompatActivity() {
 
         stopButton.setOnClickListener{
             handler.removeCallbacks(runnable)
+            textView2.setText(R.string.msg_question)
 
             when(timeValue){
-                1 -> {
-                    textView.setText(R.string.msg_hasegawa)
-                }
-                2 -> {
-                    textView.setText(R.string.msg_masuda)
-                }
-                3 -> {
-                    textView.setText(R.string.msg_fara)
+                in 1..10 -> {
+                    val rand = Math.floor(Math.random() * 4).toInt()
+                    val values = typedArray.get(rand)
+                    textView.setText(values);
                 }
 
             }
+
 
         }
 
         resetButton.setOnClickListener{
             handler.removeCallbacks(runnable)
             timeValue = 0
-            textView.setText("")
+
             timeToText()?.let{
                 timeText.text = it
+
+                textView.setText("")
+                textView2.setText("")
+
             }
         }
     }

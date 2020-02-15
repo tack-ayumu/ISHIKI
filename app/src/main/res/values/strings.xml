@@ -4,9 +4,10 @@
     <string name="bt_stop">STOP</string>
     <string name="bt_reset">RESET</string>
     <string name="msg_question">あなたは価値を生み出せましたか？</string>
-    <string name="msg_hasegawa">ボクサー・長谷川穂積は、この間に４発のパンチを繰り出しています。</string>
-    <string name="msg_masuda">静岡のドーベルマン・増田良平は、この間にハマの狂犬・黒石高大をリングに沈めています。</string>
-    <string name="msg_fara">イングランドの女子サッカー選手・ファラは、この間にキックオフから直接ゴールを決めています。</string>
-    <string name="msg_five_second">この５秒間でさえ価値を生み出せた貴方は天才です。</string>
-    <string name="msg_inoue">井上尚弥はこの間に対戦相手をリングに沈めています。</string>
+    <string name="msg_hasegawa">ボクサー・長谷川穂積は、1秒間に４発のパンチを繰り出します。</string>
+    <string name="msg_fara">イングランドの女子サッカー選手・ファラは、キックオフから３秒でゴールを決めています。</string>
+    <string name="msg_no_one">この短い秒数で価値を生み出せる人はなかなかいません…</string>
+    <string name="msg_volt">ジャマイカのウサインボルトは、１００mを９.５８秒で駆け抜けます。</string>
+    <string name="msg_inoue">井上尚弥は</string>
+    <string name="msg_bill">ビルゲイツは</string>
 </resources>
