@@ -30,6 +30,8 @@ class MainActivity : AppCompatActivity() {
 
         val typedArray =
             resources.getStringArray(R.array.list_random_msg)
+        val typedArray2 =
+            resources.getStringArray(R.array.list_random_msg2)
 
         val runnable = object : Runnable{
             override fun run() {
@@ -61,6 +63,18 @@ class MainActivity : AppCompatActivity() {
                     //textViewの中にランダムでメッセージを表示させる
                     textView.setText(values);
                 }
+
+                in 11..30 -> {
+                    val rand = Math.floor(Math.random() * 3).toInt()
+                    val values2 = typedArray2.get(rand)
+                    //textViewを背景とセットで出し・・・
+                    textView.setVisibility(View.VISIBLE)
+                    //textViewの中にランダムでメッセージを表示させる
+                    textView.setText(values2);
+                }
+
+
+
 
             }
 

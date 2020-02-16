@@ -3,11 +3,21 @@
     <string name="bt_start">START</string>
     <string name="bt_stop">STOP</string>
     <string name="bt_reset">RESET</string>
+    //固定メッセージ
     <string name="msg_question">あなたは価値を生み出せましたか？</string>
+
+    //1~10秒
     <string name="msg_hasegawa">ボクサー・長谷川穂積は、1秒間に４発のパンチを繰り出します。</string>
     <string name="msg_fara">イングランドの女子サッカー選手・ファラは、キックオフから３秒でゴールを決めています。</string>
     <string name="msg_no_one">この短い秒数で価値を生み出せる人はなかなかいません…</string>
     <string name="msg_volt">ジャマイカのウサインボルトは、１００mを９.５８秒で駆け抜けます。</string>
+
+    //11~30秒
+    <string name="msg_mikitani2">楽天・三木谷社長は、１０秒間に約２０万円稼ぎました。</string>
+    <string name="msg_son2">ソフトバンク・孫社長は、１０秒間に約４０万円稼ぎました。</string>
+    <string name="msg_yozawa2">こ実業家・与沢翼は、１秒で１億円稼ぐと言われていますから、１０秒間で１０億稼ぐのでしょう。</string>
+
+
     <string name="msg_inoue">井上尚弥は</string>
     <string name="msg_bill">ビルゲイツは</string>
 </resources>
