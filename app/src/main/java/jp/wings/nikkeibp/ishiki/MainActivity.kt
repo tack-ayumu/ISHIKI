@@ -3,9 +3,8 @@ package jp.wings.nikkeibp.ishiki
 import android.os.Bundle
 import android.os.Handler
 import android.view.View
-import android.widget.Button
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import kotlinx.android.synthetic.main.activity_main.*
 
 
 class MainActivity : AppCompatActivity() {
@@ -17,16 +16,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         //ボタンなどの画面部品を取得する
-        val startButton = findViewById<Button>(R.id.start)
-        val stopButton = findViewById<Button>(R.id.stop)
-        val resetButton = findViewById<Button>(R.id.reset)
-
-        val timeText = findViewById<TextView>(R.id.timeText)
-        val textView = findViewById<TextView>(R.id.textView)
-        val textView2 = findViewById<TextView>(R.id.textView2)
 
         //textViewを背景ごと消しておくための処置
-        textView.setVisibility(View.INVISIBLE)
+        textView.visibility = View.INVISIBLE
 
         val typedArray =
             resources.getStringArray(R.array.list_random_msg)
@@ -46,11 +38,11 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-        startButton.setOnClickListener{
+        start.setOnClickListener{
             handler.post(runnable)
         }
 
-        stopButton.setOnClickListener{
+        stop.setOnClickListener{
             handler.removeCallbacks(runnable)
             textView2.setText(R.string.msg_question)
 
@@ -59,7 +51,7 @@ class MainActivity : AppCompatActivity() {
                     val rand = Math.floor(Math.random() * 4).toInt()
                     val values = typedArray.get(rand)
                     //textViewを背景とセットで出し・・・
-                    textView.setVisibility(View.VISIBLE)
+                    textView.visibility = View.VISIBLE
                     //textViewの中にランダムでメッセージを表示させる
                     textView.setText(values);
                 }
@@ -68,7 +60,7 @@ class MainActivity : AppCompatActivity() {
                     val rand = Math.floor(Math.random() * 3).toInt()
                     val values2 = typedArray2.get(rand)
                     //textViewを背景とセットで出し・・・
-                    textView.setVisibility(View.VISIBLE)
+                    textView.visibility = View.VISIBLE
                     //textViewの中にランダムでメッセージを表示させる
                     textView.setText(values2);
                 }
@@ -81,7 +73,7 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-        resetButton.setOnClickListener{
+        reset.setOnClickListener{
             handler.removeCallbacks(runnable)
             timeValue = 0
 
