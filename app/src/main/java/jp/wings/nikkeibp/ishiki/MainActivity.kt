@@ -2,6 +2,7 @@ package jp.wings.nikkeibp.ishiki
 
 import android.os.Bundle
 import android.os.Handler
+import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -19,10 +20,14 @@ class MainActivity : AppCompatActivity() {
         val startButton = findViewById<Button>(R.id.start)
         val stopButton = findViewById<Button>(R.id.stop)
         val resetButton = findViewById<Button>(R.id.reset)
+
         val timeText = findViewById<TextView>(R.id.timeText)
         val textView = findViewById<TextView>(R.id.textView)
         val textView2 = findViewById<TextView>(R.id.textView2)
-        var msg = getString(R.string.msg_hasegawa)
+
+        //textViewを背景ごと消しておくための処置
+        textView.setVisibility(View.INVISIBLE)
+
         val typedArray =
             resources.getStringArray(R.array.list_random_msg)
 
@@ -51,6 +56,9 @@ class MainActivity : AppCompatActivity() {
                 in 1..10 -> {
                     val rand = Math.floor(Math.random() * 4).toInt()
                     val values = typedArray.get(rand)
+                    //textViewを背景とセットで出し・・・
+                    textView.setVisibility(View.VISIBLE)
+                    //textViewの中にランダムでメッセージを表示させる
                     textView.setText(values);
                 }
 
@@ -67,6 +75,7 @@ class MainActivity : AppCompatActivity() {
                 timeText.text = it
 
                 textView.setText("")
+                textView.setVisibility(View.INVISIBLE)
                 textView2.setText("")
 
             }
