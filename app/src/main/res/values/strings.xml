@@ -7,17 +7,27 @@
     <string name="msg_question">あなたは価値を生み出せましたか？</string>
 
     //1~10秒
+    <string name="msg_mikitani">楽天・三木谷社長は、１秒間に約２万円稼ぎました。</string>
+    <string name="msg_son">ソフトバンク・孫社長は、１秒間に約４万円稼ぎました。</string>
+    <string name="msg_yanai">ファーストリテイリング・柳井社長は、１秒間に約５万円稼ぎました。</string>
+    <string name="msg_bill">ビルゲイツは、１秒間に約１１万円稼ぎました。</string>
+    <string name="msg_yozawa">実業家・与沢翼は、１秒で１億円稼ぐと言われています。</string>
     <string name="msg_hasegawa">ボクサー・長谷川穂積は、1秒間に４発のパンチを繰り出します。</string>
-    <string name="msg_fara">イングランドの女子サッカー選手・ファラは、キックオフから３秒でゴールを決めています。</string>
     <string name="msg_no_one">この短い秒数で価値を生み出せる人はなかなかいません…</string>
     <string name="msg_volt">ジャマイカのウサインボルトは、１００mを９.５８秒で駆け抜けます。</string>
+    <string name="msg_ichiro">イチローは、約３．６秒で一塁（２７．４ ｍ）まで走りました。</string>
+    <string name="msg_yamada">野球選手の山田哲人は、約５.６秒で５０ mを駆け抜けました。</string>
+
 
     //11~30秒
     <string name="msg_mikitani2">楽天・三木谷社長は、１０秒間に約２０万円稼ぎました。</string>
     <string name="msg_son2">ソフトバンク・孫社長は、１０秒間に約４０万円稼ぎました。</string>
-    <string name="msg_yozawa2">こ実業家・与沢翼は、１秒で１億円稼ぐと言われていますから、１０秒間で１０億稼ぐのでしょう。</string>
+    <string name="msg_yanai2">ファーストリテイリング・柳井社長は、１０秒間に約５０万円稼ぎました。</string>
+    <string name="msg_yozawa2">実業家・与沢翼は、１秒で１億円稼ぐと言われていますから、１０秒間で１０億稼ぐようです。</string>
+    <string name="msg_oosako">サッカー選手の大迫勇也は、試合開始後１１秒でゴールを決めました。</string>
+
 
 
     <string name="msg_inoue">井上尚弥は</string>
-    <string name="msg_bill">ビルゲイツは</string>
+
 </resources>

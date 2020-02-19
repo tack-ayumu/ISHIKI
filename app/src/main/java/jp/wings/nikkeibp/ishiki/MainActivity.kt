@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
 
             when(timeValue){
                 in 1..10 -> {
-                    val rand = Math.floor(Math.random() * 4).toInt()
+                    val rand = Math.floor(Math.random() * 10).toInt()
                     val values = typedArray.get(rand)
                     //textViewを背景とセットで出し・・・
                     textView.visibility = View.VISIBLE
@@ -64,7 +64,6 @@ class MainActivity : AppCompatActivity() {
                     //textViewの中にランダムでメッセージを表示させる
                     textView.setText(values2);
                 }
-
 
 
 

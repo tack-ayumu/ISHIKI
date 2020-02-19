@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    //1~10秒
     <array name="list_random_msg">
+        <item>@string/msg_mikitani</item>
+        <item>@string/msg_son</item>
+        <item>@string/msg_yanai</item>
+        <item>@string/msg_bill</item>
+        <item>@string/msg_yozawa</item>
         <item>@string/msg_hasegawa</item>
-        <item>@string/msg_fara</item>
         <item>@string/msg_no_one</item>
         <item>@string/msg_volt</item>
+        <item>@string/msg_ichiro</item>
+        <item>@string/msg_yamada</item>
     </array>
 
+    //1~10秒
     <array name="list_random_msg2">
         <item>@string/msg_mikitani2</item>
         <item>@string/msg_son2</item>

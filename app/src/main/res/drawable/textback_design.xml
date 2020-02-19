@@ -5,7 +5,7 @@
         android:width="370dp"
         android:height="80dp"/>
 　　<!--ボタンの色を変える　-->
-    <solid android:color = "#FFF5F5F5"/>
+    <solid android:color = "#FFE4E0E0"/>
 
 </shape>
 
