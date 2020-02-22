@@ -153,7 +153,7 @@
         android:id="@+id/textView_Description"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="このアプリは「意識高い人」の陰なる努力を応援し、「意識高いこと」をポジティブに肯定するためのアプリです。"
+        android:text="このアプリは「意識高い人」の陰なる努力を応援し、「意識高いこと」をポジティブに肯定するためのストップウォッチです。"
         android:textColor="#F44336"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
