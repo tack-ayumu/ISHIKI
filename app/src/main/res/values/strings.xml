@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ISHIKI</string>
+    <string name="app_name">意識高い系ストップウォッチ </string>
     <string name="bt_start">START</string>
     <string name="bt_stop">STOP</string>
     <string name="bt_reset">RESET</string>
