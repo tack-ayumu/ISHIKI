@@ -10,16 +10,157 @@
         <item>@string/msg_hasegawa</item>
         <item>@string/msg_no_one</item>
         <item>@string/msg_volt</item>
-        <item>@string/msg_ichiro</item>
+        <item>@string/msg_deadchildren</item>
         <item>@string/msg_yamada</item>
+        <item>@string/msg_facebook</item>
+        <item>@string/msg_google</item>
+        <item>@string/msg_twitter</item>
+        <item>@string/msg_yazawa</item>
+        <item>@string/msg_death</item>
+        <item>@string/msg_ray</item>
+        <item>@string/msg_maezawa</item>
     </array>
 
-    //1~10秒
+    //11~30秒
     <array name="list_random_msg2">
+        <item>@string/msg_maezawa2</item>
         <item>@string/msg_mikitani2</item>
         <item>@string/msg_son2</item>
+        <item>@string/msg_yanai2</item>
         <item>@string/msg_yozawa2</item>
+        <item>@string/msg_oosako</item>
+        <item>@string/msg_son10second</item>
+        <item>@string/msg_tiger</item>
+        <item>@string/msg_carl</item>
+        <item>@string/msg_kiryuu</item>
+        <item>@string/msg_toyota</item>
+        <item>@string/msg_sleep10second</item>
+        <item>@string/msg_amazon</item>
+        <item>@string/msg_sean</item>
+</array>
+
+    //31~1分
+    <array name="list_random_msg3">
+        <item>@string/msg_maezawa3</item>
+        <item>@string/msg_mikitani3</item>
+        <item>@string/msg_son3</item>
+        <item>@string/msg_yanai3</item>
+        <item>@string/msg_yozawa3</item>
+        <item>@string/msg_andre</item>
+        <item>@string/msg_kodaira</item>
+        <item>@string/msg_kasuga</item>
+        <item>@string/msg_elevator</item>
+        <item>@string/msg_horie</item>
+        <item>@string/msg_forest2</item>
+        <item>@string/msg_dora</item>
+        <item>@string/msg_murata</item>
+        <item>@string/msg_google2</item>
+        <item>@string/msg_deadchildren2</item>
     </array>
+
+    //1分1秒~3分
+    <array name="list_random_msg4">
+        <item>@string/msg_maezawa4</item>
+        <item>@string/msg_mikitani4</item>
+        <item>@string/msg_son4</item>
+        <item>@string/msg_yanai4</item>
+        <item>@string/msg_yozawa4</item>
+        <item>@string/msg_faman</item>
+        <item>@string/msg_elmore</item>
+        <item>@string/msg_benza</item>
+        <item>@string/msg_kobayashi</item>
+        <item>@string/msg_uchimuira</item>
+        <item>@string/msg_inoue</item>
+        <item>@string/msg_yoshida</item>
+        <item>@string/msg_takagi</item>
+        <item>@string/msg_robert</item>
+        <item>@string/msg_sitz</item>
+    </array>
+
+    //3分1秒~5分
+    <array name="list_random_msg5">
+        <item>@string/msg_mikitani5</item>
+        <item>@string/msg_son5</item>
+        <item>@string/msg_yanai5</item>
+        <item>@string/msg_yozawa5</item>
+        <item>@string/msg_kosmic</item>
+        <item>@string/msg_kobayashi2</item>
+        <item>@string/msg_nakayama</item>
+        <item>@string/msg_kagawa</item>
+        <item>@string/msg_youtube</item>
+        <item>@string/msg_facebook2</item>
+        <item>@string/msg_twice</item>
+        <item>@string/msg_mac</item>
+        <item>@string/msg_tapioka</item>
+        <item>@string/msg_messi</item>
+        <item>@string/msg_mayweather</item>
+    </array>
+
+    //5分1秒~10分
+    <array name="list_random_msg6">
+        <item>@string/msg_son6</item>
+        <item>@string/msg_yozawa6</item>
+        <item>@string/msg_roberuto</item>
+        <item>@string/msg_steak</item>
+        <item>@string/msg_honda</item>
+        <item>@string/msg_nomura</item>
+        <item>@string/msg_takei</item>
+        <item>@string/msg_inoue2</item>
+        <item>@string/msg_roland</item>
+        <item>@string/msg_steave</item>
+        <item>@string/msg_kanai</item>
+        <item>@string/msg_james</item>
+        <item>@string/msg_running</item>
+        <item>@string/msg_ueda</item>
+        <item>@string/msg_lunasea</item>
+    </array>
+
+    //10分1秒~15分
+    <array name="list_random_msg7">
+        <item>@string/msg_hotdog</item>
+        <item>@string/msg_takei2</item>
+        <item>@string/msg_abe</item>
+        <item>@string/msg_takuro</item>
+        <item>@string/msg_kubo</item>
+        <item>@string/msg_tanaka</item>
+        <item>@string/msg_horie2</item>
+        <item>@string/msg_sleep</item>
+        <item>@string/msg_soya</item>
+        <item>@string/msg_donbei</item>
+        <item>@string/msg_nishikori</item>
+        <item>@string/msg_revandfsuki</item>
+        <item>@string/msg_tanaka2</item>
+        <item>@string/msg_federa</item>
+        <item>@string/msg_bill2</item>
+    </array>
+
+    //15分1秒〜
+    <array name="list_random_msg8">
+        <item>@string/msg_andy</item>
+        <item>@string/msg_rikaldo</item>
+        <item>@string/msg_franchesco</item>
+        <item>@string/msg_sleep3</item>
+        <item>@string/msg_katsu</item>
+        <item>@string/msg_takei3</item>
+        <item>@string/msg_takei4</item>
+        <item>@string/msg_takei5</item>
+        <item>@string/msg_steave</item>
+        <item>@string/msg_nishikori2</item>
+        <item>@string/msg_sleep4</item>
+        <item>@string/msg_bill3</item>
+        <item>@string/msg_bike</item>
+        <item>@string/msg_walking</item>
+        <item>@string/msg_jog</item>
+        <item>@string/msg_swim</item>
+        <item>@string/msg_maeda</item>
+        <item>@string/msg_nishino</item>
+
+    </array>
+
+
+
+
+
 
 
 </resources>

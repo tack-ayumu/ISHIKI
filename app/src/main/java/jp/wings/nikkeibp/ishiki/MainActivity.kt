@@ -31,6 +31,20 @@ class MainActivity : AppCompatActivity() {
             resources.getStringArray(R.array.list_random_msg)
         val typedArray2 =
             resources.getStringArray(R.array.list_random_msg2)
+        val typedArray3 =
+            resources.getStringArray(R.array.list_random_msg3)
+        val typedArray4 =
+            resources.getStringArray(R.array.list_random_msg4)
+        val typedArray5 =
+            resources.getStringArray(R.array.list_random_msg5)
+        val typedArray6 =
+            resources.getStringArray(R.array.list_random_msg6)
+        val typedArray7 =
+            resources.getStringArray(R.array.list_random_msg7)
+        val typedArray8 =
+            resources.getStringArray(R.array.list_random_msg8)
+
+
 
         val runnable = object : Runnable{
             override fun run() {
@@ -73,7 +87,7 @@ class MainActivity : AppCompatActivity() {
 
             when(timeValue){
                 in 1..10 -> {
-                    val rand = Math.floor(Math.random() * 10).toInt()
+                    val rand = Math.floor(Math.random() * 17).toInt()
                     val values = typedArray.get(rand)
                     //textViewを背景とセットで出し・・・
                     textView.visibility = View.VISIBLE
@@ -83,16 +97,79 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 in 11..30 -> {
-                    val rand = Math.floor(Math.random() * 3).toInt()
+                    val rand = Math.floor(Math.random() * 14).toInt()
                     val values2 = typedArray2.get(rand)
                     //textViewを背景とセットで出し・・・
                     textView.visibility = View.VISIBLE
                     //textViewの中にランダムでメッセージを表示
                     textView.setText(values2);
-                    textView2.visibility = View.VISIBLE
+                    textView2.setText(R.string.msg_question)
+                }
+
+                in 31..60 -> {
+                    val rand = Math.floor(Math.random() * 15).toInt()
+                    val values3 = typedArray3.get(rand)
+                    //textViewを背景とセットで出し・・・
+                    textView.visibility = View.VISIBLE
+                    //textViewの中にランダムでメッセージを表示
+                    textView.setText(values3);
+                    textView2.setText(R.string.msg_question)
+                }
+
+                in 61..180 -> {
+                    val rand = Math.floor(Math.random() * 15).toInt()
+                    val values4 = typedArray4.get(rand)
+                    //textViewを背景とセットで出し・・・
+                    textView.visibility = View.VISIBLE
+                    //textViewの中にランダムでメッセージを表示
+                    textView.setText(values4);
+                    textView2.setText(R.string.msg_question)
+                }
+
+                in 181..300 -> {
+                    val rand = Math.floor(Math.random() * 15).toInt()
+                    val values5 = typedArray5.get(rand)
+                    //textViewを背景とセットで出し・・・
+                    textView.visibility = View.VISIBLE
+                    //textViewの中にランダムでメッセージを表示
+                    textView.setText(values5);
+                    textView2.setText(R.string.msg_question)
+                }
+
+                in 301..600 -> {
+                    val rand = Math.floor(Math.random() * 15).toInt()
+                    val values6 = typedArray6.get(rand)
+                    //textViewを背景とセットで出し・・・
+                    textView.visibility = View.VISIBLE
+                    //textViewの中にランダムでメッセージを表示
+                    textView.setText(values6);
+                    textView2.setText(R.string.msg_question)
+                }
+
+                in 601..900 -> {
+                    val rand = Math.floor(Math.random() * 15).toInt()
+                    val values7 = typedArray7.get(rand)
+                    //textViewを背景とセットで出し・・・
+                    textView.visibility = View.VISIBLE
+                    //textViewの中にランダムでメッセージを表示
+                    textView.setText(values7);
+                    textView2.setText(R.string.msg_question)
+                }
+
+
+                else -> {
+                    val rand = Math.floor(Math.random() * 18).toInt()
+                    val values8 = typedArray8.get(rand)
+                    //textViewを背景とセットで出し・・・
+                    textView.visibility = View.VISIBLE
+                    //textViewの中にランダムでメッセージを表示
+                    textView.setText(values8);
+                    textView2.setText(R.string.msg_question)
                 }
 
             }
+
+
 
 
         }

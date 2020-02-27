@@ -12,26 +12,220 @@
     <string name="msg_question">あなたは価値を生み出せましたか？</string>
 
     //1~10秒
-    <string name="msg_mikitani">楽天・三木谷社長は、１秒間に約２万円稼ぐそうです。</string>
-    <string name="msg_son">ソフトバンク・孫社長は、１秒間に約４万円稼ぐそうです。</string>
-    <string name="msg_yanai">ファーストリテイリング・柳井社長は、１秒間に約５万円稼ぐそうです。</string>
-    <string name="msg_bill">ビルゲイツは、１秒間に約１１万円稼ぐそうです。</string>
-    <string name="msg_yozawa">実業家・与沢翼は、１秒で１億円稼ぐと言われています。</string>
-    <string name="msg_hasegawa">ボクサー・長谷川穂積は、1秒間に４発のパンチを繰り出しました。</string>
+    <string name="msg_maezawa">ZOZO・前澤社長は、１秒間に約31円稼いだことがあるそうです。</string>
+    <string name="msg_mikitani">楽天・三木谷社長は、１秒間に約89円稼いだことがあるそうです。</string>
+    <string name="msg_son">ソフトバンク・孫社長は、１秒間に約330円稼いだことがあるそうです。</string>
+    <string name="msg_yanai">ファーストリテイリング・柳井社長は、１秒間に333円稼いだことがあるそうです。</string>
+    <string name="msg_bill">ビルゲイツは、１秒間に約11万円稼ぐそうです。</string>
+    <string name="msg_yozawa">伝説のネオヒルズ族・与沢翼は、１秒で１億円稼ぐと言われています。</string>
+
+    <string name="msg_hasegawa">ボクサー・長谷川穂積は、1秒間に４発のパンチを繰り出すそうです。</string>
+    <string name="msg_yazawa">ロックンローラー・矢沢永吉は対立した事務所の上層部に言い放ちました。「お前らの一生掛かって稼ぐ金、矢沢の２秒!!」</string>
     <string name="msg_no_one">この短い秒数で価値を生み出せる人はなかなかいません…</string>
-    <string name="msg_volt">ジャマイカのウサイン・ボルトは、９.５８秒で１００ｍを駆け抜けます。</string>
-    <string name="msg_ichiro">イチローは、約３．６秒で一塁（２７．４ ｍ）に到達しました。</string>
-    <string name="msg_yamada">野球選手・山田哲人は、約５.６秒で５０ｍを駆け抜けました。</string>
+    <string name="msg_facebook">Facebookでは、１秒間に約３万回の"いいね！"が押されていると言われます。</string>
+    <string name="msg_volt">ジャマイカのウサイン・ボルトは、9.58秒で100ｍを駆け抜け世界記録を打ち立てました。</string>
+    <string name="msg_forest">地球上の森は、１秒間にサッカーコート約１面分失われると言われるそうです。</string>
+    <string name="msg_twitter">Twitterでは、１秒間に約900回呟かれるそうです。</string>
+    <string name="msg_google">Googleでは、１秒間に約３万回検索されるそうです。</string>
+    <string name="msg_yamada">野球選手・山田哲人は、約5.6秒で50ｍを駆け抜けるそうです。</string>
+    <string name="msg_deadchildren">世界中では栄養失調などが原因で亡くなる５歳未満の子供が、１秒に１人いるそうです。</string>
+    <string name="msg_death">世界中では、１秒間に約１.９名の人が亡くなっているそうです。</string>
+    <string name="msg_ray">光ならば、1秒間に地球を７周しています。</string>
 
     //11~30秒
-    <string name="msg_mikitani2">楽天・三木谷社長は、１０秒間に約２０万円稼ぎました。</string>
-    <string name="msg_son2">ソフトバンク・孫社長は、１０秒間に約４０万円稼ぎました。</string>
-    <string name="msg_yanai2">ファーストリテイリング・柳井社長は、１０秒間に約５０万円稼ぎました。</string>
-    <string name="msg_yozawa2">実業家・与沢翼は、１秒で１億円稼ぐと言われていますから、１０秒間で１０億稼ぐようです。</string>
-    <string name="msg_oosako">サッカー選手の大迫勇也は、試合開始後１１秒でゴールを決めました。</string>
+    <string name="msg_maezawa2">ZOZO・前澤社長は、10秒間に約312円稼いだことがあるそうです。</string>
+    <string name="msg_mikitani2">楽天・三木谷社長は、10秒間に約893円稼いだことがあるそうです。</string>
+    <string name="msg_son2">ソフトバンク・孫社長は、10秒間に約3,298円稼いだことがあるそうです。</string>
+    <string name="msg_yanai2">ファーストリテイリング・柳井社長は、10秒間に約3,334円稼いだことがあるそうです。</string>
+    <string name="msg_yozawa2">伝説のネオヒルズ族・与沢翼は、
+        １秒で１億円稼ぐと言われていますから、１０秒間で１０億円稼ぐかも知れません。</string>
+    <string name="msg_oosako">「大迫半端ねぇ」で有名な、サッカー選手・大迫勇也は、
+        試合開始後１１秒でゴールを決めたことがあるそうです。</string>
+    <string name="msg_son10second">フソフトバンク・孫社長曰く「どんなことでも10秒考えればわかる。
+        10秒考えてもわからない問題は、それ以上考えても無駄だ」</string>
+    <string name="msg_tiger">ゴルファー・タイガーウッズは試合中のネガティブな感情は、
+        １０秒間で自由に吐き出し、リセットしていたそうです。</string>
+    <string name="msg_carl">"１０秒の壁"を破ったカール・ルイスは言いました。「楽しいと思う方法で毎日トレーニングせよ。
+        ベストを尽くせば誇りに思える。自分にとってのオリンピックで『達成感』という金メダルを勝ち取ろう」</string>
+    <string name="msg_kiryuu">日本人で初めて"１０秒の壁"を破った桐生祥秀は言いました。
+        「僕がやっているのは所詮「かけっこ」。楽しくやらないとかけっこじゃない」</string>
+    <string name="msg_toyota">世界的企業であるトヨタでは生産性向上のために、
+        １０秒以内に書類を取り出すことがルールになっているそうです。</string>
+    <string name="msg_sleep10second">『Psychological Science』誌では、
+        たとえ１０秒間の休憩でも学習効果に好影響を与えると伝えています。</string>
+    <string name="msg_amazon">Amazonのサイバーマンデーでは、10秒間に約4000商品を受注したことがあるそうです。</string>
+    <string name="msg_sean">ハーバード大学のショーン・エイカーは提唱します。
+        「習慣化したければ、実行するまでの時間を20秒早める。
+        逆に習慣をやめたければ、それを始める時間を20秒だけ増やす」</string>
 
+    //31~1分
+    <string name="msg_maezawa3">ZOZO・前澤社長は、30秒間に約935円稼いだことがあるそうです。</string>
+    <string name="msg_mikitani3">楽天・三木谷社長は、30秒間に約2,680円稼いだことがあるそうです。</string>
+    <string name="msg_son3">ソフトバンク・孫社長は、30秒間に約9,895円稼いだことがあるそうです。</string>
+    <string name="msg_yanai3">ファーストリテイリング・柳井社長は、30秒間に約10,002円稼いだことがあるそうです。</string>
+    <string name="msg_yozawa3">伝説のネオヒルズ族・与沢翼は、
+        １秒で１億円稼ぐと言われていますから、３０秒間で３０億円稼ぐかも知れません。</string>
+    <string name="msg_andre">アンドレ・ホーデンさんは、30秒間、ズボンのチャックを高速で上げ下げし
+        ２０４回という記録を達成しました。</string>
+    <string name="msg_kodaira">スケート選手・小平奈緒は、約３６秒で５００mを滑り切り
+        世界第二位の記録を打ち立てたそうです。</string>
+    <string name="msg_kasuga">オードリー・春日俊彰は、３０秒で１６枚のパンツを履き、ギネスに認定されています。</string>
+    <string name="msg_elevator">シリコンバレーの起業家は「エレベータの中で投資家に出会った際、
+        ビジネスプランを30秒で的確に伝えられなくては未来がない」と言われてきたそうです。</string>
+    <string name="msg_horie">多動力を提唱するホリエモンこと堀江貴文は、サウナを３０秒で済ませるそうです。</string>
+    <string name="msg_dora">天空の城ラピュタのドーラおばさんはパズーに言いました。「４０秒で支度しな」
+        そして、パズーは大切に飼っていた鳩を逃しました。</string>
+    <string name="msg_murata">ボクサー・村田諒太はWBA世界ミドル級タイトルマッチで
+        「魂のラッシュ」と称賛された50秒間の攻撃を見せ、王者に返り咲きました。</string>
+    <string name="msg_forest2">地球上の森は、３０秒間にサッカーコート約３０面分失われるそうです。</string>
+    <string name="msg_deadchildren2">世界中では栄養失調で亡くなる５歳未満の子供が、３０秒に３０人いるそうです。</string>
+    <string name="msg_google2">Googleでは、３０秒間に約９０万回検索されるそうです。</string>
 
+    //1分1秒~3分
+    <string name="msg_maezawa4">ZOZO・前澤社長は、1分間に約1,870円稼いだことがあるそうです。</string>
+    <string name="msg_mikitani4">楽天・三木谷社長は、1分間に約5,360円稼いだことがあるそうです。</string>
+    <string name="msg_son4">ソフトバンク・孫社長は、1分間に約19,791円稼いだことがあるそうです。</string>
+    <string name="msg_yanai4">ファーストリテイリング・柳井社長は、1分間に約20,004円稼いだことがあるそうです。</string>
+    <string name="msg_yozawa4">伝説のネオヒルズ族・与沢翼は、
+        １秒で１億円稼ぐと言われていますから、１分間で６０億円稼ぐかも知れません。</string>
+    <string name="msg_faman">アメリカ人のアシュリタ・ファーマンは１分間に８０個の卵を頭で割り、
+        記録を打ち立てました。</string>
+    <string name="msg_elmore">ドイツ人のサイモン・エルモアは、１分間で400本のストローを口の中に詰め込み、
+        記録を打ち立てました。</string>
+    <string name="msg_benza">スペインのとある男性は、１分間で46個の木製便座を破壊し、
+        記録を打ち立てました。</string>
+    <string name="msg_kobayashi">フードファイター・小林尊は、１分間で直径約30cmのピザを食べきり、
+        記録を打ち立てました。</string>
+    <string name="msg_uchimuira">体操選手・内村航平は言いました。
+        「１分１秒でも競技のことを考えて、東京五輪を迎えたい」</string>
+    <string name="msg_inoue">プロボクサーの井上尚弥は、1ラウンド1分10秒で
+        世界タイトルマッチ最短KO勝利を果しました。</string>
+    <string name="msg_yoshida">レスリング・吉田沙保里は右手骨折しながら全日本選手権に出場し、
+        全戦１分以内で相手を仕留め優勝したそうです。</string>
+    <string name="msg_takagi">スケート選手・高木美帆は、1分49秒83で1500mを
+        滑り抜き、世界記録を出しました。</string>
+    <string name="msg_robert">１分間で放つパンチの世界最多回数はロバート・アルディト氏が
+        記録した805回です。</string>
+    <string name="msg_sitz">フリースタイルフットボーラー・Sitz（日本人）は、１分間、
+        肩で230回リフティングをしギネスに登録されています。</string>
 
-    <string name="msg_inoue">井上尚弥は</string>
+    //3分1秒~5分
+    <string name="msg_mikitani5">楽天・三木谷社長は、3分間に約16,080円稼いだことがあるそうです。</string>
+    <string name="msg_son5">ソフトバンク・孫社長は、3分間に約59,373円稼いだことがあるそうです。</string>
+    <string name="msg_yanai5">ファーストリテイリング・柳井社長は、3分間に60,012円稼いだことがあるそうです。</string>
+    <string name="msg_yozawa5">伝説のネオヒルズ族・与沢翼は、
+        １秒で１億円稼ぐと言われていますから、３分間で１８０億円稼ぐかも知れません。</string>
+    <string name="msg_kosmic">ゲーマー・Kosmicさんはスーパーマリオブラザーズを
+        ４分５５秒でクリアし最速記録を打ち立てたそうです。</string>
+    <string name="msg_kobayashi2">フードファイターの小林尊は、
+        ３分間で１２個のハンバーガーを食べて世界一になりました。</string>
+    <string name="msg_nakayama">サッカー選手・中山雅史は、３分間でハットトリックを決め、
+     世界最短記録を打ち出しました。</string>
+    <string name="msg_kagawa">サッカー選手・香川真司は、トルコリーグへ移籍後、初出場の３分間で２得点を挙げ
+        貫禄を見せつけました。</string>
+    <string name="msg_youtube">YouTubeでは、3分間で約180時間の動画がアップされているそうです。</string>
+    <string name="msg_facebook2">Facebookでは、3分間に約562万回の"いいね！"が押されているとそうです。</string>
+    <string name="msg_twice">韓国の女性アイドルグループ・TWICEは、
+        3分間で東京ドームのチケットを完売させたそうです。</string>
+    <string name="msg_mac">マクドナルドのポテトは、３分間で約60個売れているそうです。※Ｍサイズで換算</string>
+    <string name="msg_tapioka">2019年度爆発的な人気となったタピオカは、
+        3分間で約1,200杯、売れたそうです。</string>
+    <string name="msg_mayweather">ボクサーであるメイウェザーは、3分間に約18万円稼いだことがあるそうです。</string>
+    <string name="msg_messi">サッカー選手・メッシは3分間に約7万円稼いだことがあるそうです。</string>
+
+    //5分1秒~10分
+    <string name="msg_son6">ソフトバンク・孫社長は、5分間に約98,955円稼いだことがあるそうです。</string>
+    <string name="msg_yozawa6">伝説のネオヒルズ族・与沢翼は、
+        １秒で１億円稼ぐと言われていますから、５分間で３００億円稼ぐかも知れません。</string>
+    <string name="msg_roberuto">サッカー選手のロベルト・レバンドフスキは９分足らずの間に５得点を挙げ、
+        ギネスに認定されました。</string>
+    <string name="msg_steak">テキサス州でステーキの早食いに挑戦した女性は、
+        ５分足らずで重さ約２０００グラムのステーキなどを食べきり、新記録を打ち立てたそうです。</string>
+    <string name="msg_honda">サッカー選手・本田圭佑がブラジルＷ杯予選でフリーキックを決めた後の、
+        ５分間のツイート数は119万4800件を記録、５分間のツイート数では歴代２位となるそうです。</string>
+    <string name="msg_nomura">柔道家・野村忠宏は金メダルをとったアトランタでの試合を振り返ります。
+        「５分という試合の中で自分自身が大きく変わって、成長した。そう感じた試合はあの試合だけ」</string>
+    <string name="msg_takei">百獣の王・武井壮は言います。「１日に5分でもいいので、自分がまだ目にしたことがないことや、
+        手にしたことがないことを調べる。必ず１歩前に進むことができると思います」</string>
+    <string name="msg_inoue2">ボクサー・井上尚弥はWBSSの２試合を、合計約５分で片付けたそうです。</string>
+    <string name="msg_roland">ホスト界の帝王・ローランドは愛する地元・八王子をこう言います。「都心までヘリだと５分」</string>
+    <string name="msg_steave">アップル創始者スティーブ・ジョブズは５分間のスピーチのためにも
+        数百時間の下準備を要し、リハーサルに２日間かけたそうです。</string>
+    <string name="msg_kanai">宇宙飛行士・金井宣茂は言います。
+        「初めての宇宙での生活は不安だったが、５分もすると体が慣れてしまった」</string>
+    <string name="msg_james">経営コンサルタントのジェームズ・ルート氏は言います。
+        「1時間のミーティングであれば、会議が５分遅れたことにより、生産性は8％下がることになります。」</string>
+    <string name="msg_running">一説には一日５分のランニングだけでも心臓疾患などの死亡リスクは
+        低下すると言われるそうです。</string>
+    <string name="msg_ueda">サッカー選手・上田綺世は言います。「僕は結果主義。点を取ってここまで来たので、
+        取れない試合は僕にとってそんなに価値はない。出場が５分でも、結果を出すのが僕の仕事」</string>
+    <string name="msg_lunasea">ロックバンド・LUNA SEAは２００７年の復活ライブの
+        東京ドーム公演のチケットを５分で完売させました。</string>
+
+    //10分1秒~15分
+    <string name="msg_hotdog">アメリカのホットドッグ早食い選手権では、
+        １０分間に７４個完食という世界記録が樹立されたそうです。</string>
+    <string name="msg_takei2">百獣の王・武井壮は言います。「ぜひ皆さんにも、
+        １日１０分でも２０分でも３０分でもいいんで、今自分の持ってない知識や能力をより伸ばしてほしい。」</string>
+    <string name="msg_abe">ある日、安倍首相はコロナ対策の会議を、１０分足らずで済ませました。</string>
+    <string name="msg_takuro">GLAY・TAKUROは言います。「今でも寝る前の５〜１０分ぐらい
+        １曲でも良いから何かしら曲のモチーフを考えてから寝るようにしている。２５年間それは変わらない」</string>
+    <string name="msg_kubo">サッカー選手・久保建英をスペイン紙マルカはこう評しました。
+        「途中出場組でもっとも異彩を放ったのは、２本の危険なシュートを放ったハポネス（日本人）だ。存在を示すのに、１０分間は充分な時間だった」</string>
+    <string name="msg_tanaka">野球選手・田中将大は2013年沢村賞を受賞しましたが、
+        選考会議はたった１０分で終了、満場一致だったそうです。</string>
+    <string name="msg_horie2">堀江貴文は幼少期、テストや教科書が簡単すぎてつまらなくなり、
+        算数のテストで１０分で解き上げクラスメイトの答案の採点をしていたそうです。</string>
+    <string name="msg_sleep">学会誌『Sleep』で発表された論文によれば１０分間の昼寝によって、
+        即座に注意力や認知能力が高まり、およそ３時間にわたってその状態が継続することが判明しました。</string>
+    <string name="msg_soya">筑波大学の征矢英昭教授らの共同研究グループによれば、
+        １０分程度の簡単な運動で脳が刺激され、記憶力がアップするそうです。</string>
+    <string name="msg_donbei">カップラーメン・どん兵衛の待ち時間を５分ではなく、少し辛抱して、
+        １０分にすると、また別の美味さを味わえるらしいです。</string>
+    <string name="msg_nishikori">テニスプレイヤー・錦織圭は、10分間で約72,412円稼いだそうです。</string>
+    <string name="msg_tanaka2">野球選手・田中将大は、10分間で約48,340円稼いだそうです。</string>
+    <string name="msg_revandfsuki">サッカー選手・レヴァンドフスキは14分32秒で４ゴールを達成し、
+        ＣＬ史上最速の記録を打ち立てたそうです。</string>
+    <string name="msg_federa">トップテニスプレイヤー、フェデラーとナダルの一戦のチケット５万枚は、
+        １０分足らずで完売したそうです。</string>
+    <string name="msg_bill2">ビルゲイツは１０分間に約６７００万稼いだそうです。</string>
+
+    //15分1秒~
+    <string name="msg_andy">芸術家アンディ・ウォーホールは、
+        「人は誰しも１５分なら有名になれる」と言いました。</string>
+    <string name="msg_rikaldo">ブラジルのスキューバダイビング・インストラクターのリカルドは、
+        約２２分間、水中で息を止めたことがあるそうです。</string>
+    <string name="msg_yazawa2">矢沢永吉は初対面の哀川翔に約２０分間、
+        無言で見つめながら握手をし続けたそうです。</string>
+    <string name="msg_franchesco">フランスの起業家フランチェスコ・シリロ氏は
+        「２５分間仕事をしたら５分休む」ポモドーロ・テクニックという仕事術を提唱しています。</string>
+    <string name="msg_sleep3">米国立睡眠財団は２０分は最適な昼寝の長さであり、
+        注意力の改善、パフォーマンス・気分の向上といった効果を得られると説明しています。</string>
+    <string name="msg_katsu">俳優・勝新太郎は車のディーラーに「３０分で車を届けに来たら、
+        一台買うよ」と伝え、実際に届いた車を購入したそうです。</string>
+    <string name="msg_takei3">武井壮の１日の睡眠時間は、４５分だそうです。</string>
+    <string name="msg_takei4">武井壮は毎日必ず、３時間、自分磨きの時間を確保しているそうです。</string>
+    <string name="msg_takei5">武武井壮は足ではなく、手だけで高尾山を６時間で登頂したそうです。</string>
+    <string name="msg_habu">天才棋士・羽生善治は言います。「長い時間考えた手がうまくいくケースは非常に少ない。
+        1時間以上考えているときは、考えるというよりも迷っている。」</string>
+    <string name="msg_steave2">スティーブ・ジョブズはMacintosh開発時代、
+        「週９０時間喜んで働こう！」をモットーにしていたそうです。</string>
+    <string name="msg_nishikori2">テニス選手・錦織圭は全豪オープンで
+        ５時間５分戦い続け、勝利しました。</string>
+    <string name="msg_sleep4">一説によれば、午後に丸々1時間の睡眠を確保できれば、
+        衝動に駆られることが少なくなり、いらだちに対する耐性が高まるそうです。</string>
+    <string name="msg_bill3">ビルゲイツが１日（８時間労働）で稼ぐ金額は、４億円だそうです。</string>
+    <string name="msg_bike">体重６０kgの人が１時間、
+        自転車を漕いで消費されるカロリーは約４２８calだそうです。</string>
+    <string name="msg_walking">体重６０kgの人が１時間、
+        ウォーキングで消費されるカロリーは約３０２calだそうです。</string>
+    <string name="msg_jog">体重６０kgの人が１時間、
+        ジョギングで消費されるカロリーは約４４１calだそうです。</string>
+    <string name="msg_swim">体重６０kgの人が１時間、
+        水泳で消費されるカロリーは約５２３calだそうです。</string>
+    <string name="msg_maeda">SHOWROOM社長・前田裕二の睡眠時間は１日３時間だそうです。</string>
+    <string name="msg_nishino">キングコング・西野亮廣の睡眠時間は１日２時間。
+        「やりたいことが多いんで、寝る時間がもったいなくて。やりたいこと全部に時間をつぎ込みたいと思ってます。」</string>
+
 
 </resources>
