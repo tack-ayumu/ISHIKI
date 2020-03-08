@@ -8,16 +8,17 @@
     android:background="#FFB2EBF2"
     tools:context=".MainActivity">
 
+
     <ImageView
         android:id="@+id/imageView_Ishiki"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        android:layout_height="94dp"
         android:scaleType="fitStart"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/rogo_ishiki" />
-
 
     <TextView
         android:id="@+id/timeText"
@@ -92,7 +93,7 @@
         android:id="@+id/start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/button_design"
         android:text="@string/bt_start"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -104,7 +105,7 @@
         android:id="@+id/stop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/button_design"
         android:text="@string/bt_stop"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -116,7 +117,7 @@
         android:id="@+id/reset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/button_design"
         android:text="@string/bt_reset"
         app:layout_constraintBottom_toBottomOf="parent"
